@@ -1,0 +1,141 @@
+.myApp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.myApp .header{
+
+    width:60%;
+    height: auto;
+    margin : 100px auto;
+    margin-bottom: 30px;
+   
+    padding: 30px 50px;
+}
+
+.myApp .header form{
+
+   
+    margin:0 auto;
+    padding: 20px 30px;
+   
+    
+}
+
+.myApp .header form input{
+
+    display: inline-block;
+    width : 70%;
+    padding: 12px 20px;
+    margin-right: 30px;
+    color :#F9D342;
+    font-size: 30px;
+    box-sizing: border-box;
+    border: none;
+    background-color:#292826;
+    border-bottom: 2px solid wheat;
+    transition:0.5s ease-out;
+    letter-spacing: 5px;
+    font-weight: normal;
+    text-decoration: none;
+
+    
+}
+
+.myApp .header form input:focus{
+
+    outline: none;
+    border-bottom: 2px solid #F9D342;
+   
+}
+
+.myApp .header form input::placeholder{
+color: rgb(247, 232, 176);
+font-weight: bold;
+}
+
+.myApp .header form button{
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 70px;
+    background-color:  #292826;
+    color:#F9D342;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #F9D342;
+    cursor: pointer;
+    transition:0.5s ease;
+    letter-spacing: 3px;
+    outline: none; 
+}
+
+.myApp .header form button:hover{
+
+background-color: #F9D342;
+color:  #292826;
+outline: none;
+
+}
+
+.myApp .theList{
+
+list-style: none;
+display: block;
+width: 50%;
+
+}
+
+.myApp .theList li{
+  color: #333;
+  font-weight: bolder;
+  width: 75%;
+  background-color: wheat;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  transition: 0.5s ease-out;
+  overflow-x: auto;
+  position: relative;
+}
+
+
+
+
+
+.myApp .theList li input{
+    background-color: wheat;
+    border: none;
+    font-size: 20px;
+    padding: 4px;
+}
+
+.myApp .theList li input:focus{
+    outline:none;
+}   
+
+.myApp .theList li span{
+
+
+    position: absolute;
+    right: 15px;
+    font-size: 25px;
+    color:#292826;
+    
+}
+
+.myApp .theList li span:hover{
+
+    color:rgb(179, 31, 31);
+    cursor: pointer;
+
+}
+
