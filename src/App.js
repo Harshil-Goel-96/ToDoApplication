@@ -54,6 +54,7 @@ editItem = (text,key) => {
 }
 
   render(){
+    console.log("change");
     return (
       <div className="myApp">
         <div className="header">
